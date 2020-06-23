@@ -1,0 +1,23 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Header nav {
+}
+
+.Header nav a {
+  font-size: 24px;
+  text-decoration: none;
+  padding-left: 20px;
+  color: #99c8f2;
+}
+
+.Header nav a:hover {
+  color: #80e7f2;
+  margin-bottom: 10px;
+  transition: color 0.4s, margin 0.4s ease-in-out;
+}

@@ -1,0 +1,28 @@
+.Skills {
+  width: 720px;
+  padding: 30px;
+}
+
+.Skills h2 {
+  color: #99c8f2;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.Skills p {
+  font-size: 1.25rem;
+  color: #5a90bf;
+}
+.LineBreak {
+  border: 2px solid #5a90bf;
+  width: 110px;
+}
+
+.Logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Logos img {
+  height: 60px;
+}
