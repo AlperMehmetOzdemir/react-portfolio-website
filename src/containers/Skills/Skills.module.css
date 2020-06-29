@@ -1,28 +1,63 @@
 .Skills {
-  width: 720px;
-  padding: 30px;
+  margin: auto;
+  color: #5a90bf;
+  width: 800px;
+  padding-right: 0;
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.Skills h2,
+h3 {
+  color: #99c8f2;
+  font-weight: 400;
+  margin-bottom: 5px;
+  line-height: 56px;
 }
 
 .Skills h2 {
-  color: #99c8f2;
-  font-weight: 400;
   font-size: 3rem;
-  margin-bottom: 5px;
 }
+
+.Skills h3 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
 .Skills p {
-  font-size: 1.25rem;
-  color: #5a90bf;
+  margin: 0;
+  padding: 20px 0;
 }
+
+.Skills ul {
+  padding-left: 0;
+}
+
+.Skills li {
+  list-style-type: none;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+.Skills li:hover {
+  color: #80e7f2;
+  padding-left: 10px;
+  transition: all ease 0.4s;
+}
+
 .LineBreak {
   border: 2px solid #5a90bf;
   width: 110px;
 }
 
-.Logos {
+.SkillLists {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: left;
 }
 
-.Logos img {
-  height: 60px;
+.SkillList {
 }

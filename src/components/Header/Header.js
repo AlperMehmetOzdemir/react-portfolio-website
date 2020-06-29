@@ -7,11 +7,19 @@ const header = (props) => {
   return (
     <div className={classes.Header}>
       <Logo />
-      <nav>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+      <nav className={classes.Links}>
+        <a className={classes.Link} href="#">
+          About
+        </a>
+        <a className={classes.Link} href="#">
+          Skills
+        </a>
+        <a className={classes.Link} href="#">
+          Projects
+        </a>
+        <a className={classes.Link} href="#">
+          Contact
+        </a>
       </nav>
     </div>
   );

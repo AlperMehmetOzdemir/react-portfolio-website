@@ -1,0 +1,29 @@
+.ContactButton {
+  padding: 5px 10px;
+  /* width: 120px; */
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.ContactButton:hover {
+  background-color: rgba(128, 231, 242, 0.15);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+@media (min-width: 2500px) {
+  .ContactButton {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,21 @@
+.Projects {
+  width: 800px;
+  margin: auto;
+}
+
+.Projects h2 {
+  color: #99c8f2;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.LineBreak {
+  border: 2px solid #5a90bf;
+  width: 175px;
+}
+
+.ProjectContainer {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

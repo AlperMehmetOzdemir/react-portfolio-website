@@ -1,6 +1,13 @@
 .Logo {
   color: #80e7f2;
-  font-size: 24px;
+  font-size: 2rem;
   height: 20px;
   text-decoration: none;
+}
+
+@media (min-width: 2500px) {
+  .Logo {
+    font-size: 4rem;
+    height: 40px;
+  }
 }

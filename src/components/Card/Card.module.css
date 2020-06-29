@@ -1,0 +1,72 @@
+.Card {
+  margin: 0;
+  width: 45%;
+  text-align: center;
+  border: 1px solid #99c8f2;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  font-size: 2rem;
+}
+
+.Image {
+  width: 240px;
+  opacity: 1;
+  height: auto;
+  transition: all 0.4 ease-in-out;
+  backface-visibility: hidden;
+}
+
+.Container {
+  position: relative;
+  width: 240px;
+}
+
+.Overlay {
+  opacity: 0;
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.Container:hover .Image {
+  opacity: 0.3;
+  transition: 0.4s ease;
+}
+
+.Container:hover .Overlay {
+  opacity: 1;
+}
+
+.Icon {
+  font-size: 2rem;
+}
+
+.TextContent {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.Subsection {
+}
+
+.Subsection h4 {
+  font-size: 1.5rem;
+}
+
+.Subsection p {
+  font-size: 1rem;
+}

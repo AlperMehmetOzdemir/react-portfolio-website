@@ -1,15 +1,11 @@
 import React from "react";
 
 import classes from "./Home.module.css";
-import AlternatingText from "../../components/AlternatingText/AlternatingText";
+import ContactButton from "../../components/ContactButton/ContactButton";
+import { BsChevronDown } from "react-icons/bs";
+// import AlternatingText from "../../components/AlternatingText/AlternatingText";
 
 const home = (props) => {
-  const interests = [
-    "web application development",
-    "software application development",
-    "video game development",
-  ];
-
   return (
     <section className={classes.Home}>
       <h3 className={classes.Greeting}>Hi, I'm</h3>
@@ -20,6 +16,17 @@ const home = (props) => {
         I'm a 4th year computer engineering student at Bilkent University
         interested in web app development.
       </p>
+
+      <ContactButton
+        color="#80e7f2"
+        email="amehmet97@hotmail.com"
+        className={classes.CallToAction}
+      >
+        Get in touch
+      </ContactButton>
+      <a href="#About">
+        <BsChevronDown className={classes.ToAbout} />
+      </a>
     </section>
   );
 };

@@ -11,71 +11,67 @@ const Skills = () => {
       <div className={classes.LineBreak} />
       <p>
         I enjoy learning new technologies. Whether it be about web apps, UI/UX
-        design or video game development.
+        design or video game development. Here are some of what I work with.
       </p>
-      <div>
-        <div>
+      <div className={classes.SkillLists}>
+        <div className={classes.SkillList}>
           <h3>Web development</h3>
           <ul>
             <li>
-              <BsChevronDoubleRight />
-              React.js
+              <BsChevronDoubleRight /> React.js
             </li>
             <li>
-              <BsChevronDoubleRight />
-              JavaScript
+              <BsChevronDoubleRight /> JavaScript
             </li>
             <li>
-              <BsChevronDoubleRight />
-              HTML5
+              <BsChevronDoubleRight /> HTML5
             </li>
             <li>
-              <BsChevronDoubleRight />
-              CSS
+              <BsChevronDoubleRight /> CSS
+            </li>
+            <li>
+              <BsChevronDoubleRight /> Nuxt.js
             </li>
           </ul>
         </div>
-        <div>
+        <div className={classes.SkillList}>
           <h3>Programming</h3>
           <ul>
             <li>
-              <BsChevronDoubleRight />
-              Python
+              <BsChevronDoubleRight /> Python
             </li>
             <li>
-              <BsChevronDoubleRight />
-              Java
+              <BsChevronDoubleRight /> Java
             </li>
             <li>
-              <BsChevronDoubleRight />
-              C#
+              <BsChevronDoubleRight /> C#
             </li>
             <li>
-              <BsChevronDoubleRight />
-              C++
+              <BsChevronDoubleRight /> C++
             </li>
             <li>
-              <BsChevronDoubleRight />
-              SQL
+              <BsChevronDoubleRight /> SQL
             </li>
           </ul>
         </div>
-        <div>
-          <h3>Others</h3>
+        <div className={classes.SkillList}>
+          <h3>Other Skills</h3>
           <ul>
             <li>
-              <BsChevronDoubleRight />
-              Unity
+              <BsChevronDoubleRight /> Unity
             </li>
             <li>
-              <BsChevronDoubleRight />
-              UML
+              <BsChevronDoubleRight /> ELK Stack
             </li>
             <li>
-              <BsChevronDoubleRight />
-              Git / Github
+              <BsChevronDoubleRight /> UML
             </li>
-            <li></li>
+            <li>
+              <BsChevronDoubleRight /> Git / Github
+            </li>
+            {/* <li>
+              <BsChevronDoubleRight /> Figma
+            </li> */}
           </ul>
         </div>
       </div>
