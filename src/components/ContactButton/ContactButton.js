@@ -17,6 +17,7 @@ const contactButton = (props) => {
         style={styles}
         href={mail}
         target="_blank"
+        rel="noopener noreferrer"
       >
         {props.children}
       </a>

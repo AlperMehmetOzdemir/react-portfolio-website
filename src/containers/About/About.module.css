@@ -1,41 +1,52 @@
 .About {
-  margin: 0 auto;
-  width: 800px;
+  margin: 20px auto;
+  width: 90vw;
 }
 
 .About h2 {
   color: #99c8f2;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 36px;
   margin-bottom: 5px;
 }
 
-.LineBreak {
-  border: 2px solid #5a90bf;
-  width: 215px;
+.Underline {
+  padding-bottom: 1vh;
+  border-bottom: 3px solid #5a90bf;
 }
 
 .Content {
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 2rem;
+  padding: 1vh 0;
+  font-size: 20px;
+  line-height: 30px;
+  width: 100%;
 }
 
-.Content img {
-  width: 240px;
-  border-radius: 20px;
+@media (min-width: 768px) {
+  .About {
+    width: 80vw;
+  }
 }
-
-.ContentText {
-  font-size: 1.25rem;
-  padding-right: 4vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 1024px) {
+  .About {
+    width: 70vw;
+  }
 }
-
-.ContentText p {
-  margin: 0.75rem 0;
+@media (min-width: 1280px) {
+  .About {
+    width: 60vw;
+  }
+}
+@media (min-width: 2096px) {
+  .About {
+    width: 50vw;
+    font-size: 64px;
+  }
+  .About h2 {
+    font-size: 60px;
+  }
+  .Content {
+    font-size: 40px;
+    line-height: 60px;
+  }
 }

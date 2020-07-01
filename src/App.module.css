@@ -1,9 +1,9 @@
 .App {
   font-size: 12px;
-  background-color: #0a1b26;
+  background-color: #050e24;
   font-family: "Raleway", sans-serif;
   color: #5a90bf;
-  padding: 0 30px;
+  padding: 0 5vw;
 }
 
 h2,
@@ -19,4 +19,22 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .App {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .App {
+    padding: 0 30px;
+  }
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 2096px) {
+  .App {
+    padding: 0 60px;
+  }
 }

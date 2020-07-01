@@ -1,0 +1,36 @@
+.Links {
+  top: 20px;
+  right: 30px;
+}
+
+.Links ul {
+  display: flex;
+}
+
+.Links li {
+  list-style: none;
+}
+
+.Link {
+  font-size: 2rem;
+  text-decoration: none;
+  padding-left: 20px;
+  color: #99c8f2;
+}
+
+.Link:hover {
+  color: #80e7f2;
+  transition: color 0.4s, margin 0.4s ease-in-out;
+}
+
+@media (min-width: 2500px) {
+  .Links {
+    top: 40px;
+    right: 60px;
+  }
+
+  .Link {
+    font-size: 4rem;
+    padding-left: 40px;
+  }
+}

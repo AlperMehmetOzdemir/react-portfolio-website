@@ -1,7 +1,7 @@
 .Skills {
   margin: auto;
   color: #5a90bf;
-  width: 800px;
+  width: 90vw;
   padding-right: 0;
   font-size: 1.25rem;
   line-height: 2rem;
@@ -12,16 +12,15 @@ h3 {
   color: #99c8f2;
   font-weight: 400;
   margin-bottom: 5px;
-  line-height: 56px;
 }
 
 .Skills h2 {
-  font-size: 3rem;
+  font-size: 36px;
 }
 
 .Skills h3 {
   margin-top: 0;
-  font-size: 2rem;
+  font-size: 28px;
 }
 
 .Skills p {
@@ -29,11 +28,13 @@ h3 {
   padding: 20px 0;
 }
 
-.Skills ul {
-  padding-left: 0;
+.Underline {
+  padding-bottom: 1vh;
+  border-bottom: 3px solid #5a90bf;
 }
 
 .Skills li {
+  font-size: 20px;
   list-style-type: none;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
@@ -48,16 +49,97 @@ h3 {
   transition: all ease 0.4s;
 }
 
-.LineBreak {
-  border: 2px solid #5a90bf;
-  width: 110px;
-}
-
 .SkillLists {
-  display: flex;
-  justify-content: space-between;
-  align-items: left;
+  display: grid;
+  grid-template-areas:
+    "w"
+    "p"
+    "o";
+  grid-gap: 1vw;
+  /* align-items: left; */
 }
 
-.SkillList {
+.Web {
+  grid-area: w;
+}
+
+.Prog {
+  grid-area: p;
+}
+
+.Other {
+  grid-area: o;
+}
+
+.SkillLists div {
+  justify-content: start;
+  text-align: left;
+}
+
+.SkillLists ul {
+  padding-left: 0;
+}
+
+.Icon {
+  position: relative;
+  top: 3px;
+}
+
+@media (min-width: 768px) {
+  .Skills {
+    width: 80vw;
+  }
+  .SkillLists {
+    grid-template-areas:
+      "w p "
+      "o .";
+  }
+}
+@media (min-width: 1024px) {
+  .Skills {
+    width: 70vw;
+  }
+
+  .SkillLists {
+    grid-template-areas:
+      "w p "
+      "o .";
+    /* align-items: left; */
+  }
+}
+@media (min-width: 1280px) {
+  .Skills {
+    width: 60vw;
+  }
+
+  .SkillLists {
+    display: grid;
+    grid-template-areas: "w p o";
+    /* align-items: left; */
+  }
+}
+@media (min-width: 2096px) {
+  .Skills {
+    width: 50vw;
+  }
+  .Skills h2 {
+    font-size: 60px;
+  }
+  .Skills p {
+    margin: 40px 0;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .SkillLists {
+    display: grid;
+    grid-template-areas: "w p o";
+    /* align-items: left; */
+  }
+  .Skills h3 {
+    font-size: 50px;
+  }
+  .Skills li {
+    font-size: 40px;
+    line-height: 60px;
+  }
 }

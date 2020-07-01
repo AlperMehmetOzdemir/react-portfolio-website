@@ -8,18 +8,20 @@ const card = (props) => {
 
   if (props.github) {
     github = (
-      <a href={props.github} target="_blank">
+      <a href={props.github} target="_blank" rel="noopener noreferrer">
         <GoMarkGithub />
       </a>
     );
   }
+
+  console.log(props.imgAlt);
 
   return (
     <div className={classes.Card}>
       <h3 className={classes.Title}>{props.title}</h3>
       <div className={classes.Content}>
         <div className={classes.Container}>
-          <img className={classes.Image} src={props.image} />
+          <img className={classes.Image} src={props.image} alt={props.imgAlt} />
           <div className={classes.Overlay}>
             <div className={classes.Icon}>{github}</div>
           </div>

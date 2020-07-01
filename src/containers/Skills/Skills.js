@@ -6,68 +6,69 @@ import { BsChevronDoubleRight } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <section className={classes.Skills}>
-      <h2>Skills</h2>
-      <div className={classes.LineBreak} />
+    <section id="skills" className={classes.Skills}>
+      <h2>
+        <span className={classes.Underline}>Skills</span>
+      </h2>
       <p>
         I enjoy learning new technologies. Whether it be about web apps, UI/UX
         design or video game development. Here are some of what I work with.
       </p>
       <div className={classes.SkillLists}>
-        <div className={classes.SkillList}>
+        <div className={classes.Web}>
           <h3>Web development</h3>
           <ul>
             <li>
-              <BsChevronDoubleRight /> React.js
+              <BsChevronDoubleRight className={classes.Icon} /> React.js
             </li>
             <li>
-              <BsChevronDoubleRight /> JavaScript
+              <BsChevronDoubleRight className={classes.Icon} /> JavaScript
             </li>
             <li>
-              <BsChevronDoubleRight /> HTML5
+              <BsChevronDoubleRight className={classes.Icon} /> HTML5
             </li>
             <li>
-              <BsChevronDoubleRight /> CSS
+              <BsChevronDoubleRight className={classes.Icon} /> CSS
             </li>
             <li>
-              <BsChevronDoubleRight /> Nuxt.js
+              <BsChevronDoubleRight className={classes.Icon} /> Nuxt.js
             </li>
           </ul>
         </div>
-        <div className={classes.SkillList}>
+        <div className={classes.Prog}>
           <h3>Programming</h3>
           <ul>
             <li>
-              <BsChevronDoubleRight /> Python
+              <BsChevronDoubleRight className={classes.Icon} /> Python
             </li>
             <li>
-              <BsChevronDoubleRight /> Java
+              <BsChevronDoubleRight className={classes.Icon} /> Java
             </li>
             <li>
-              <BsChevronDoubleRight /> C#
+              <BsChevronDoubleRight className={classes.Icon} /> C#
             </li>
             <li>
-              <BsChevronDoubleRight /> C++
+              <BsChevronDoubleRight className={classes.Icon} /> C++
             </li>
             <li>
-              <BsChevronDoubleRight /> SQL
+              <BsChevronDoubleRight className={classes.Icon} /> SQL
             </li>
           </ul>
         </div>
-        <div className={classes.SkillList}>
+        <div className={classes.Other}>
           <h3>Other Skills</h3>
           <ul>
             <li>
-              <BsChevronDoubleRight /> Unity
+              <BsChevronDoubleRight className={classes.Icon} /> Unity
             </li>
             <li>
-              <BsChevronDoubleRight /> ELK Stack
+              <BsChevronDoubleRight className={classes.Icon} /> ELK Stack
             </li>
             <li>
-              <BsChevronDoubleRight /> UML
+              <BsChevronDoubleRight className={classes.Icon} /> UML
             </li>
             <li>
-              <BsChevronDoubleRight /> Git / Github
+              <BsChevronDoubleRight className={classes.Icon} /> Git / Github
             </li>
             {/* <li>
               <BsChevronDoubleRight /> Figma

@@ -6,7 +6,7 @@ import Header from "../Header/Header";
 const layout = (props) => {
   return (
     <Fragment>
-      <Header />
+      {/* <Header /> */}
       <main className={classes.Content}>{props.children}</main>
     </Fragment>
   );

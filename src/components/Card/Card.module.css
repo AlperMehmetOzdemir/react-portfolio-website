@@ -1,6 +1,5 @@
 .Card {
   margin: 0;
-  width: 45%;
   text-align: center;
   border: 1px solid #99c8f2;
   border-radius: 20px;
@@ -8,6 +7,7 @@
 }
 
 .Content {
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,20 +15,23 @@
 }
 
 .Title {
-  font-size: 2rem;
+  font-size: 28px;
+  margin-bottom: 28px;
 }
 
 .Image {
-  width: 240px;
+  width: 100%;
   opacity: 1;
   height: auto;
+  border: 1px solid #99c8f2;
+  border-radius: 5px;
   transition: all 0.4 ease-in-out;
   backface-visibility: hidden;
 }
 
 .Container {
   position: relative;
-  width: 240px;
+  width: 90%;
 }
 
 .Overlay {
@@ -52,21 +55,28 @@
 }
 
 .Icon {
-  font-size: 2rem;
+  font-size: 32px;
 }
 
 .TextContent {
-  padding: 1rem;
-  font-size: 1rem;
+  padding: 16px;
+  font-size: 16px;
 }
 
-.Subsection {
+@media (min-width: 768px) {
 }
-
-.Subsection h4 {
-  font-size: 1.5rem;
+@media (min-width: 1024px) {
 }
-
-.Subsection p {
-  font-size: 1rem;
+@media (min-width: 1280px) {
+}
+@media (min-width: 2096px) {
+  .Title {
+    font-size: 40px;
+  }
+  .TextContent {
+    font-size: 24px;
+  }
+  .Icon {
+    font-size: 64px;
+  }
 }

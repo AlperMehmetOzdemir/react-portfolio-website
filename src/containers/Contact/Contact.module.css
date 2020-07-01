@@ -1,14 +1,89 @@
 .Contact {
-  width: 800px;
-  margin: auto;
+  width: 90vw;
+  margin: 5vw auto;
   padding-bottom: 150px;
+  margin-bottom: 0;
 }
 
-.LineBreak {
-  border: 2px solid #5a90bf;
-  width: 175px;
+.Contact h2 {
+  font-size: 30px;
+}
+
+.Contact ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact li {
+  margin: 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.Contact a {
+  text-decoration: none;
+}
+
+.Contact a:visited {
+  color: #99c8f2;
+}
+.Contact a::before {
+  color: #99c8f2;
+}
+.Contact a::after {
+  color: #99c8f2;
+}
+
+.Underline {
+  padding-bottom: 1vh;
+  border-bottom: 3px solid #5a90bf;
 }
 
 .Contact p {
-  font-size: 1.25rem;
+  font-size: 20px;
+}
+
+.Icon {
+  margin: 0 10px;
+  font-size: 24px;
+  position: relative;
+  top: 5px;
+}
+
+@media (min-width: 768px) {
+  .Contact {
+    width: 80vw;
+  }
+}
+@media (min-width: 1024px) {
+  .Contact {
+    width: 70vw;
+  }
+}
+@media (min-width: 1280px) {
+  .Contact {
+    width: 60vw;
+  }
+}
+@media (min-width: 2096px) {
+  .Contact {
+    width: 50vw;
+  }
+  .Contact h2 {
+    font-size: 60px;
+  }
+  .Contact p {
+    font-size: 40px;
+  }
+  .Contact li {
+    font-size: 40px;
+  }
+  .Icon {
+    margin: 0 20px;
+    font-size: 48px;
+    position: relative;
+    top: 10px;
+  }
 }
