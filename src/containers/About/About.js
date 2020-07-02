@@ -23,7 +23,7 @@ const about = (props) => {
         <img
           className={classes.Img}
           src={PortraitPhoto}
-          alt="Portrait photo of Alper Mehmet Özdemir"
+          alt="Portrait of Alper Mehmet Özdemir"
         />
       </div>
     </section>

@@ -23,6 +23,7 @@ const contact = () => {
               href="mailto:amehmet97@hotmail.com"
               target="_blank"
               rel="noreferrer noopener"
+              className={classes.Link}
             >
               <FiMail className={classes.Icon} />
               amehmet97@hotmail.com
@@ -33,6 +34,7 @@ const contact = () => {
               href="https://github.com/AlperMehmetOzdemir"
               target="_blank"
               rel="noreferrer noopener"
+              className={classes.Link}
             >
               <GoMarkGithub className={classes.Icon} />
               AlperMehmetOzdemir
@@ -43,6 +45,7 @@ const contact = () => {
               href="https://www.linkedin.com/in/alper-mehmet-%C3%B6zdemir-6a66b212a/"
               target="_blank"
               rel="noreferrer noopener"
+              className={classes.Link}
             >
               <AiOutlineLinkedin className={classes.Icon} />
               Alper Mehmet Özdemir

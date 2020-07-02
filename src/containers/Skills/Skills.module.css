@@ -1,6 +1,6 @@
 .Skills {
   margin: auto;
-  color: #5a90bf;
+  color: #63a5c9;
   width: 90vw;
   padding-right: 0;
   font-size: 1.25rem;
@@ -30,7 +30,7 @@ h3 {
 
 .Underline {
   padding-bottom: 1vh;
-  border-bottom: 3px solid #5a90bf;
+  border-bottom: 3px solid #63a5c9;
 }
 
 .Skills li {

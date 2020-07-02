@@ -13,7 +13,7 @@ const card = (props) => {
         href={props.github}
         target="_blank"
         rel="noopener noreferrer"
-        alt={gitAlt}
+        aria-label={gitAlt}
       >
         <GoMarkGithub />
       </a>
