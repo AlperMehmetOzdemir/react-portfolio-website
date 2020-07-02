@@ -68,7 +68,7 @@ const Skills = () => {
               <BsChevronDoubleRight className={classes.Icon} /> UML
             </li>
             <li>
-              <BsChevronDoubleRight className={classes.Icon} /> Git / Github
+              <BsChevronDoubleRight className={classes.Icon} /> Git/ Github
             </li>
             {/* <li>
               <BsChevronDoubleRight /> Figma

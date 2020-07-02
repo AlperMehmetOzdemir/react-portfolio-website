@@ -12,7 +12,7 @@ const contact = () => {
         <span className={classes.Underline}>Contact</span>
       </h2>
       <p>
-        I am looking for remote intern / part-time positions at the moment and
+        I am looking for remote intern/ part-time positions at the moment and
         full-time positions after I graduate in January 2021.
       </p>
 
