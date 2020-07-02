@@ -15,7 +15,7 @@ const about = (props) => {
           University.
         </p>
         <p className={classes.Text2}>
-          I enjoy learning new technologies and creating / analyzing apps and
+          I enjoy learning new technologies and creating/ analyzing apps and
           video games that have innovative and intuitive design. I aim to keep
           improving myself as a computer engineer with a focus on web
           development and build products that others will enjoy using.
