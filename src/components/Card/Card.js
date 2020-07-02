@@ -5,10 +5,16 @@ import { GoMarkGithub } from "react-icons/go";
 
 const card = (props) => {
   let github = null;
+  const gitAlt = "This is a link to " + props.title + "'s github repository";
 
   if (props.github) {
     github = (
-      <a href={props.github} target="_blank" rel="noopener noreferrer">
+      <a
+        href={props.github}
+        target="_blank"
+        rel="noopener noreferrer"
+        alt={gitAlt}
+      >
         <GoMarkGithub />
       </a>
     );

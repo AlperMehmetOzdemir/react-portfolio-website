@@ -7,7 +7,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 
 const contact = () => {
   return (
-    <section id="contact" className={classes.Contact}>
+    <section className={classes.Contact}>
       <h2>
         <span className={classes.Underline}>Contact</span>
       </h2>

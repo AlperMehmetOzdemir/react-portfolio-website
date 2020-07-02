@@ -9,7 +9,7 @@ import ReactPortfolioImage from "../../assets/images/ReactPortfolio.jpg";
 
 const Projects = () => {
   return (
-    <section id="projects" className={classes.Projects}>
+    <section className={classes.Projects}>
       <h2>
         <span className={classes.Underline}>Projects</span>
       </h2>

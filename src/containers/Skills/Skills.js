@@ -6,7 +6,7 @@ import { BsChevronDoubleRight } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <section id="skills" className={classes.Skills}>
+    <section className={classes.Skills}>
       <h2>
         <span className={classes.Underline}>Skills</span>
       </h2>

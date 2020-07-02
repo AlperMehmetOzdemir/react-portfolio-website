@@ -5,7 +5,7 @@ import PortraitPhoto from "../../assets/images/portraitPhoto.jpg";
 
 const about = (props) => {
   return (
-    <section className={classes.About} id="about">
+    <section className={classes.About}>
       <h2>
         <span className={classes.Underline}>About Me</span>
       </h2>
@@ -20,7 +20,11 @@ const about = (props) => {
           improving myself as a computer engineer with a focus on web
           development and build products that others will enjoy using.
         </p>
-        <img className={classes.Img} src={PortraitPhoto} />
+        <img
+          className={classes.Img}
+          src={PortraitPhoto}
+          alt="Portrait photo of Alper Mehmet Özdemir"
+        />
       </div>
     </section>
   );

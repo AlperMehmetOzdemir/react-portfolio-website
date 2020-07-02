@@ -8,7 +8,7 @@ import ContactButton from "../../components/ContactButton/ContactButton";
 
 const home = (props) => {
   return (
-    <section id="home" className={classes.Home}>
+    <section className={classes.Home}>
       <h3 className={classes.Greeting}>Hi, I'm</h3>
       <h1 className={classes.Name}>Alper Mehmet Özdemir</h1>
       <h1 className={classes.Introduction}>And I'm a software engineer</h1>
