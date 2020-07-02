@@ -20,11 +20,44 @@
   font-size: 20px;
   line-height: 30px;
   width: 100%;
+  display: grid;
+  grid-template-areas:
+    "t1 i "
+    "t2 t2";
+}
+
+.Text1 {
+  grid-area: t1;
+}
+.Text2 {
+  grid-area: t2;
+}
+
+.Img {
+  align-self: center;
+  justify-self: center;
+  border: solid 1px #99c8f2;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  max-width: 120px;
+  max-height: 200px;
+  grid-area: i;
 }
 
 @media (min-width: 768px) {
   .About {
     width: 80vw;
+  }
+  .Content {
+    grid-template-areas:
+      "t1 i"
+      "t2 i";
+  }
+  .Img {
+    margin-left: 15px;
+    max-width: 160px;
+    max-height: 280px;
   }
 }
 @media (min-width: 1024px) {
@@ -48,5 +81,9 @@
   .Content {
     font-size: 40px;
     line-height: 60px;
+  }
+  .Img {
+    max-width: 320px;
+    max-height: 560px;
   }
 }
